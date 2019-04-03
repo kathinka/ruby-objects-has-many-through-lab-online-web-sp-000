@@ -15,4 +15,9 @@ def name
 @name
 end
 
+def genres
+Song.map do |songs|
+  song.genre
+end
+
 end
