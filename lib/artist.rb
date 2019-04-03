@@ -17,9 +17,9 @@ def new_song(name, genre)
   Song.new(name, self, genre)
 end
 
-def name
-  @name
-end
+#def name
+#  @name
+#end
 
 def songs
   Songs.all.select do |song|
