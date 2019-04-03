@@ -16,15 +16,15 @@ class Patient
   end
 
   def appointments
-    Appointment.all.select do |appointment, doctor|
+    Appointment.all.select do |appointment|
       appointment.patient == self
-      puts appointment.doctor
+      #puts appointment.doctor
     end
   end
 
   def doctors
-    appointments.map do |appointment, doctor|
-      appointment.doctor.name
+    appointments.map do |appointment|
+      appointment.doctor
     end
   end
 end
