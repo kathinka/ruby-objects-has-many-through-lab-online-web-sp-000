@@ -18,14 +18,14 @@ def new_song(name, genre)
 end
 
 def songs
-  Song.all.select do |song|
-    song.artist == self
+  Song.all.select do |songs|
+    songs.artist == self
   end
 end
 
 def genres
-  Song.collect do |song|
-    song.genre
+  Song.collect do |songs|
+    songs.genre
   end
 end
 
