@@ -26,7 +26,7 @@ class Doctor
   #  Appointment.all.select do |appointment|
     #  appointment.doctor == self
     appointments.map do |appointment|
-      appointment.patients
+      appointment.patient
     end
   end
 
