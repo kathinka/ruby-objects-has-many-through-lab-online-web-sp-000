@@ -23,7 +23,9 @@ def name
 end
 
 def songs
-  @songs
+  Songs.all.select do |song|
+    song.artist == self
+  end
 end
 
 
