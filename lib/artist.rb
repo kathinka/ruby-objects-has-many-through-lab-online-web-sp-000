@@ -24,7 +24,7 @@ def songs
 end
 
 def genres
-  Song.collect do |songs|
+  Song.map.select do |songs|
     songs.genre
   end
 end
