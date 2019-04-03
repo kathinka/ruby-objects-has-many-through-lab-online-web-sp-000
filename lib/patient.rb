@@ -1,5 +1,5 @@
 class Patient
-  attr_accessor :appointment
+  #attr_accessor :appointment
   attr_reader :name
   @@all = []
 
