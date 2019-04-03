@@ -1,5 +1,5 @@
 class Artist
-#  attr_accessor :artist, :genre, :song
+
   attr_reader :name
   @@all = []
 
