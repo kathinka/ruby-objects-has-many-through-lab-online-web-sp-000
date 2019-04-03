@@ -1,5 +1,6 @@
 class Genre
-  attr_accessor :song, :artist, :name
+  #attr_accessor :song, :artist,
+  attr_reader :name
   @@all = []
 
   def initialize(name)
@@ -11,9 +12,9 @@ class Genre
     @@all
   end
 
-  def name
-    @name
-  end
+#  def name
+#    @name
+#  end
 
   def songs
     Song.all.select do |songs|
