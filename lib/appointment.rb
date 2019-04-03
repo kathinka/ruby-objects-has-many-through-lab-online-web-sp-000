@@ -16,9 +16,6 @@ class Appointment
     binding.pry
   end
 
-def tullball
-  "Dette er tull"
-  binding.pry
-end
+
 
 end
