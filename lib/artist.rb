@@ -17,9 +17,11 @@ def new_song(name, genre)
   Song.new(name, self, genre)
 end
 
-#def songs
-#@songs
-#end
+def name
+  @artist
+end
+
+
 
 
 end
